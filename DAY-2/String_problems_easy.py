@@ -72,4 +72,3 @@ for char in a:
     if char.islower():
         count += 1
 print(count)
-
