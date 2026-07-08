@@ -17,4 +17,3 @@
 # print(type(a))#<class 'bool'> not str because no quotes are used
 # a = {}
 # print(type(a))
-# 
