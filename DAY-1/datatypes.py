@@ -38,4 +38,3 @@ print(random.randrange(1, 10)) #it will print a random number between 1 and 10
 #int()-integers , float(removes all decimals),string(represents a whole number)
 #float-integer,float,string(represents float or string)
 #string-integer, float, string.
-
