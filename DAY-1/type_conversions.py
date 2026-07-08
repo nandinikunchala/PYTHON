@@ -1,6 +1,6 @@
-x = 1    # int
-y = 2.8  # float
-z = 1  # complex
+x = 7   # int
+y = 4.5  # float
+z = 8 # complex
 
 #convert from int to float:
 a = float(x)
