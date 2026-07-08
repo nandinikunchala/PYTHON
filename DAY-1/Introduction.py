@@ -4,7 +4,7 @@
 
 
 # #It is used for
-# 1. Web Development (e.g., Django, Flask)
+# 1. Web Development (server-side)
 # 2.Software Development
 # 3.Mathematics
 # 4. System Scripting
