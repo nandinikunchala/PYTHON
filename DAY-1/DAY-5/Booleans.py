@@ -31,3 +31,10 @@ print(bool(""))
 print(bool(()))
 print(bool([]))
 print(bool({}))
+
+#Functions can return a boolean
+def myFunction() :
+  return True
+print(myFunction())
+
+
