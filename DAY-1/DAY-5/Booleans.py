@@ -23,6 +23,7 @@ print(bool("abc"))
 print(bool(123))
 print(bool(["apple", "cherry", "banana"]))
 
+
 #Some evaluate false
 print(bool(False))
 print(bool(None))
