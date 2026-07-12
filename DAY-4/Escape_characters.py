@@ -13,4 +13,3 @@ print("I\tLOVE\tDANCE")
 
 #5.Print both single and double quotes in the same sentence using escape characters.
 print("I am \"Nandini\" and I am \'20\' years old")
-
