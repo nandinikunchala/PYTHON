@@ -117,4 +117,3 @@ for char in a:
     else:
         result += char.upper()
 print(result)
-
