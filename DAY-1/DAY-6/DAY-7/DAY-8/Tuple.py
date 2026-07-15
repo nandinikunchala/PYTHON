@@ -88,7 +88,7 @@ print(thistuple) #this will raise an error because the tuple no longer exists
 
 #unpack tuples
 #When we create a tuple, we normally assign values to it. This is called "packing" a tuple
-ruits = ("apple", "banana", "cherry")
+fruits = ("apple", "banana", "cherry")
 
 (green, yellow, red) = fruits
 
