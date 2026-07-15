@@ -260,3 +260,38 @@ set2 = {"google", "microsoft", "apple"}
 set1.symmetric_difference_update(set2)
 
 print(set1)
+
+#Frozenset
+#frozenset is an immutable version of a set.
+#Like sets, it contains unique, unordered, unchangeable elements.
+#Unlike sets, elements cannot be added or removed from a frozenset.
+x = frozenset({"apple", "banana", "cherry"})
+print(x)
+print(type(x))
+#Methods
+#copy()
+#difference()
+#intersection()
+##isdisjoint()
+#issubset()
+#issuperset()
+#symmetric_difference()
+#union()
+
+#set methods
+#add()	 	
+#clear()	 	
+#copy()	 	
+#difference()	-	
+#difference_update()	-=	
+#discard()	 	
+#intersection()	&	
+#intersection_update()	&=	
+#isdisjoint()	<=,< 	
+#issuperset()	>=,>	
+#pop()	 	
+#remove()	 	
+#symmetric_difference()	^	
+#symmetric_difference_update()	^=	
+#union()	|
+#update()
