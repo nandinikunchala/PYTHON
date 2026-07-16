@@ -174,7 +174,7 @@ print("Bigger is", bigger)
 # You can chain conditional expressions, but keep it short so it stays readable:
 a = 330
 b = 330
-print("A") if a > b else print("=") if a == b else print(B)
+print("A") if a > b else print("=") if a == b else print("B")
 
 
 # Ternary operators are particularly useful for simple assignments and return statements.
