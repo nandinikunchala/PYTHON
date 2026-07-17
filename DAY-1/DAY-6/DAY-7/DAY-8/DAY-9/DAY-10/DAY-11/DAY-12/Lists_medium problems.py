@@ -45,5 +45,5 @@ for number in num:
 print(unique)
 
 #6.Write a Python program to check whether a list is in ascending order or not.
-thelist=[26,9,12,17,30]
+
 
