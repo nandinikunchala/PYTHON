@@ -45,5 +45,15 @@ for number in num:
 print(unique)
 
 #6.Write a Python program to check whether a list is in ascending order or not.
+numbers = [10, 20, 30, 40, 50]
+ascending = True
+for i in range(len(numbers) - 1):
+    if numbers[i] > numbers[i + 1]:
+        ascending = False
+        break
+if ascending:
+    print("The list is in ascending order.")
+else:
+    print("The list is not in ascending order.")
 
 
