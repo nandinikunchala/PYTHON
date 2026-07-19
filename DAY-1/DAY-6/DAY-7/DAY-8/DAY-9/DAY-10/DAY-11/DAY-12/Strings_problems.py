@@ -230,18 +230,46 @@ for word in words:
     result+=new_word +" "
 print(result)
 # Find the most frequent character.
+s = "afifa"
+most = max(s, key=s.count)
+print(most)
 # Find the least frequent character.
+s = "afifa"
+least = min(s, key=s.count)
+print(least)
 # Compress a string.
 # Example:
 # aaabbccccd
 # Output:
 # a3b2c4d1
+s = "aaabbccccd"
+result = ""
+for char in set(s):
+    result += char + str(s.count(char))
+print(result)
 # Expand a compressed string.
-
 # Example:
-
 # a3b2c4
 # Output:
 # aaabbcccc
+s = "a3b2c4"
+result = ""
+for i in range(0, len(s), 2):
+    char = s[i]
+    count = int(s[i+1])
+    result += char * count
+print(result)
 # Check whether one string is a subsequence of another.
+s1 = "abc"
+s2 = "aebdc"
+i = 0
+for ch in s2:
+    if i < len(s1) and ch == s1[i]:
+        i += 1
+print(i == len(s1))
 # Check whether all characters are unique.
+s = "apple"
+if len(s) == len(set(s)):
+    print("Unique")
+else:
+    print("Not Unique")
