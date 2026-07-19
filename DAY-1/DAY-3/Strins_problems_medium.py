@@ -103,10 +103,6 @@ print(a[::2])
 a="Nandini"
 print(a[1::2])
 
-#19.Print characters at odd indices.
-a="Nandini"
-print(a[1::2])
-
 #20.Convert every word's first letter to uppercase.
 a="nandini is a good dancer"
 a = a.title()
