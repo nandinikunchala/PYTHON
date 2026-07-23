@@ -1,5 +1,17 @@
 #Find the maximum element in a tuple without using max().
+x=(1,2,5,9)
+max=0
+for number in x:
+    if number>max:
+        max=number
+print(max)
 # Find the minimum element in a tuple without using min().
+a=(50,60,85,20,40)
+min=a[0]
+for number in a:
+    if number<min:
+        min=number
+print(min) 
 # Find the sum of all elements without using sum().
 # Find the average of the tuple elements.
 # Find the second largest element.
