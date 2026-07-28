@@ -30,7 +30,6 @@ for x in a:
         s_largest=largest
         largest=x
 print(s_largest)
-
 # Find the second smallest element.
 # Count even and odd numbers in a tuple.
 # Create a new tuple containing only even numbers.

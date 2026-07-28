@@ -121,6 +121,15 @@ for x in c:
         frq+=1
 print(frq)
 # Count the frequency of every element without using count().
+list=[2,3,3,2,5,4,6]
+freq={}
+for num in list:
+    if num in freq:
+        freq[num]+=1
+    else:
+        freq[num]=1
+print(freq)    
+
 
 # Reverse a list without using reverse().
 d=[3,7,8]
