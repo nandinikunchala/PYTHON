@@ -18,7 +18,19 @@ for x in a:
     sum+=x
 print(sum)
 # Find the average of the tuple elements.
+avg=0
+for x in a:
+    avg+=x
+print(avg/len(a))
 # Find the second largest element.
+largest=0
+s_largest=0
+for x in a:
+    if x>largest:
+        s_largest=largest
+        largest=x
+print(s_largest)
+
 # Find the second smallest element.
 # Count even and odd numbers in a tuple.
 # Create a new tuple containing only even numbers.
