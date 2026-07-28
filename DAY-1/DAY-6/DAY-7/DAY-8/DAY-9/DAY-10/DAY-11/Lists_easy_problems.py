@@ -107,13 +107,66 @@ for x in z:
         zero+=1
 print(zero)
 # Search for an element and print its index.
+index=0
+for x in z:
+    if x==44:
+      print(index)
+    index+=1
 # Count the frequency of a given element.
+c=[2,4,2,6,7,2]
+element=2
+frq=0
+for x in c:
+    if x==element:
+        frq+=1
+print(frq)
 # Count the frequency of every element without using count().
+
 # Reverse a list without using reverse().
+d=[3,7,8]
+rev=[]
+for x in d:
+    if d[::-1]:
+        rev=[x]+rev
+print(rev)
 # Copy a list without using copy().
+copied_list=[]
+for x in d:
+    copied_list.append(x)
+print(copied_list)
 # Check whether a list is in ascending order.
+b=[3,4,5]
+ascending=True
+for i in range(0,len(b)-1):
+    if b[i]>b[i+1]:
+        ascending=False
+if ascending:
+    print("Ascending order")
+else:
+    print("Not ascending")
 # Remove all duplicate elements while preserving order.
+n=[3,4,6,5,4,2,3,7,8,9,0,11]
+unique=[]
+for x in n:
+    if x not in unique:
+        unique.append(x)
+print(unique)
 # Find the second largest and second smallest elements.
+s=[63,65,77,78,85,93]
+l=0
+s_l=0
+for x in s:
+    if x> l:
+        s_l=l
+        l=x
+print(s_l)
+small=s[0]
+s_s=s[1]
+for x in s:
+    if x<small:
+        s_s=small
+        small=x
+print(s_s)
 # Rotate a list left by k positions.
 # Rotate a list right by k positions.
 

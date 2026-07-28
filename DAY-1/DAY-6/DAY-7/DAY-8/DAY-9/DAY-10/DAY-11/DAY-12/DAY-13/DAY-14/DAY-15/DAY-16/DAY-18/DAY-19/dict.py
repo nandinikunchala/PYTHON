@@ -6,4 +6,5 @@ for i in range(2,n+1):
             prime=False
             break
     if prime:
-        print(i)    
+        print(i)   
+
