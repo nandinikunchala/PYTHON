@@ -13,6 +13,10 @@ for number in a:
         min=number
 print(min) 
 # Find the sum of all elements without using sum().
+sum=0
+for x in a:
+    sum+=x
+print(sum)
 # Find the average of the tuple elements.
 # Find the second largest element.
 # Find the second smallest element.
