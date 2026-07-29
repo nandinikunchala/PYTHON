@@ -129,8 +129,6 @@ for num in list:
     else:
         freq[num]=1
 print(freq)    
-
-
 # Reverse a list without using reverse().
 d=[3,7,8]
 rev=[]
@@ -176,6 +174,3 @@ for x in s:
         s_s=small
         small=x
 print(s_s)
-# Rotate a list left by k positions.
-# Rotate a list right by k positions.
-
