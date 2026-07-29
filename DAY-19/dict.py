@@ -1,10 +1,4 @@
-n=10
-for i in range(2,n+1):
-    prime=True
-    for j in range(2,i):
-        if i%j==0:
-            prime=False
-            break
-    if prime:
-        print(i)   
+#Create a dictionary with 5 student names and their marks. Print the dictionary.
+x={"nandini":85,"veda":93,"thagur":86}
+print(x)
 
