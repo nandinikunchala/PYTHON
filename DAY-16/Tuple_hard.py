@@ -1,16 +1,3 @@
-#Rotate a tuple left by k positions.
-# Example:
-# (1,2,3,4,5), k=2
-# Output: (3,4,5,1,2)
-t = (1, 2, 3, 4, 5)
-k = 2
-result = t[k:] + t[:k]
-print(result)
-# Rotate a tuple right by k positions.
-t = (1, 2, 3, 4, 5)
-k = 2
-result = t[-k:] + t[:-k]
-print(result)
 # Find the frequency of every element without using count().
 # Example:
 # (1,2,1,3,2,1)
