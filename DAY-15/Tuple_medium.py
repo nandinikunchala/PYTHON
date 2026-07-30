@@ -43,11 +43,46 @@ for x in a:
 print("Even numbers:",even)
 print("Odd numbers:",odd)
 # Create a new tuple containing only even numbers.
-c=(2,4,6,8,12,14)
+c=(2,4,2,6,8,4,12,14)
 # Remove duplicate elements (create a new tuple).
+new=()
+for x in c:
+    if x not in new:
+        new+=(x,)
+print(new)
 # Check whether a tuple is sorted in ascending order.
+if c==tuple(sorted(c)):
+    print("Sorted")
+else:
+    print("Not sorted")
 # Merge two tuples and sort them.
+u=(8,9,7,6)
+v=(1,2,3,4)
+y=u+v
+y==tuple(sorted(y))
+print(y)
 # Find the common elements between two tuples.
+i=(1,2,3,4,5)
+j=(1,7,8,4,5)
+common=()
+for x in i:
+    if x in j:
+        common+=(x,)
+print(common)
 # Find the elements that are present in the first tuple but not in the second.
+result=()
+for x in i:
+    if x not in j:
+        result+=(x,)
+print(result)
 # Check whether all elements are unique.
+if len(j)==len(set(j)):
+    print("Unique")
+else:
+    print("Not Unique")
 # Convert a tuple into a list and vice versa.
+f=(4,7,8,9)
+k=list(f)
+print(k)
+o=tuple(k)
+print(o)
