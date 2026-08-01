@@ -23,14 +23,24 @@ for x in a:
     avg+=x
 print(avg/len(a))
 # Find the second largest element.
-largest=0
-s_largest=0
-for x in a:
+g=(10,7,6,9,5)
+largest=g[0]
+s_largest=g[1]
+for x in g:
     if x>largest:
         s_largest=largest
         largest=x
 print(s_largest)
 # Find the second smallest element.
+smallest=float("inf")
+second_smallest=float("inf")
+for x in g:
+    if x<smallest:
+        second_smalest=smallest
+        smallest=x
+    elif x>second_smallest and x!=smallest:
+        second_largest=x
+print(second_smallest)
 # Count even and odd numbers in a tuple.
 a=(2,3,4,5,6,7,8)
 even=0
