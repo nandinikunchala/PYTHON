@@ -76,6 +76,5 @@ def prime(num):
 
         if count == 2:
             print(i)
-
 prime(7)
 
