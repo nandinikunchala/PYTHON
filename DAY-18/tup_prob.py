@@ -142,3 +142,16 @@ for x in t:
         negative_count += 1
 print("Positive numbers:", positive_count)
 print("Negative numbers:", negative_count)
+# Find the frequency of each element in a tuple.
+# Find all duplicate elements in a tuple.
+# Find the first non-repeating element in a tuple.
+# Find the largest and smallest elements without using max() and min().
+# Merge two tuples and sort the resulting tuple.
+# Find the elements that appear in both tuples without duplicates.
+# Remove all occurrences of a given element from a tuple.
+# Find the sum of all elements in a nested tuple.
+# Flatten a nested tuple into a single tuple.
+# Sort a tuple of tuples based on the second element.
+# Find the tuple with the maximum sum from a tuple of tuples.
+# Find the longest tuple from a tuple containing multiple tuples.
+# Create a tuple containing only the first occurrence of each element while maintaining the original order.
