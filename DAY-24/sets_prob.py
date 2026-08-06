@@ -124,5 +124,3 @@ print("Number of unique words:", len(unique_words))
 s="hello"
 unique_characters=set(s)
 print("Number of unique characters:", len(unique_characters))
-
-
