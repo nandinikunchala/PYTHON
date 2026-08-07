@@ -79,4 +79,3 @@ def prime(num):
 
 prime(7)
 
-
