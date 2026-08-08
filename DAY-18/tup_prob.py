@@ -143,15 +143,65 @@ for x in t:
 print("Positive numbers:", positive_count)
 print("Negative numbers:", negative_count)
 # Find the frequency of each element in a tuple.
+freq = {}
+for x in t:
+    freq[x] = freq.get(x, 0) + 1
+print("Frequency of each element:", freq)
 # Find all duplicate elements in a tuple.
+duplicates = set()
+for x in t:
+    if t.count(x) > 1:
+        duplicates.add(x)
+print("Duplicate elements:", duplicates)
 # Find the first non-repeating element in a tuple.
+for x in t:
+    if t.count(x) == 1:
+        print("First non-repeating element:", x)
+        break
+else:
+    print("No non-repeating element found.")
 # Find the largest and smallest elements without using max() and min().
+largest = t[0]
+smallest = t[0]
+for x in t:
+    if x > largest:
+        largest = x
+    if x < smallest:
+        smallest = x
+print("Largest element:", largest)
+print("Smallest element:", smallest)
 # Merge two tuples and sort the resulting tuple.
+t1 = (1, 2, 3)
+t2 = (4, 5, 6)
+merged = sorted(t1 + t2)
+print("Merged and sorted tuple:", tuple(merged))
 # Find the elements that appear in both tuples without duplicates.
+common = set(t1) & set(t2)
+print("Common elements:", tuple(common))
 # Remove all occurrences of a given element from a tuple.
+element_to_remove = 3
+t = tuple(x for x in t if x != element_to_remove)
+print("Tuple after removing", element_to_remove, ":", t)
 # Find the sum of all elements in a nested tuple.
+nested = ((1, 2), (3, 4), (5, 6))
+sum_nested = sum(sum(subtuple) for subtuple in nested)
+print("Sum of all elements in nested tuple:", sum_nested)
 # Flatten a nested tuple into a single tuple.
+flattened = tuple(item for subtuple in nested for item in subtuple)
+print("Flattened tuple:", flattened)
 # Sort a tuple of tuples based on the second element.
+sorted_by_second = sorted(nested, key=lambda x: x[1])
+print("Tuple of tuples sorted by second element:", sorted_by_second)
 # Find the tuple with the maximum sum from a tuple of tuples.
+max_sum_tuple = max(nested, key=sum)
+print("Tuple with maximum sum:", max_sum_tuple)
 # Find the longest tuple from a tuple containing multiple tuples.
+longest_tuple = max(nested, key=len)
+print("Longest tuple:", longest_tuple)
 # Create a tuple containing only the first occurrence of each element while maintaining the original order.
+t = (1, 2, 3, 2, 4, 1, 5)
+unique = ()
+for x in t:
+    if x not in unique:
+        unique += (x,)
+print("Tuple with unique elements:", unique)
