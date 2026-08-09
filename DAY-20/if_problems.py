@@ -113,6 +113,12 @@ if n>m:
 else:
     print(m,"is largest")
 # Find the largest of three numbers.
+if n>m and n>k:
+    print(n,"is largest")
+elif m>n and m>k:
+    print(m,"is largest")
+else:
+    print(k,"is largest")
 # Find the smallest of three numbers.
 # Check whether a number is positive, negative, or zero.
 # Print whether a number is one-digit, two-digit, or three-digit.
