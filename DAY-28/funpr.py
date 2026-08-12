@@ -89,3 +89,4 @@ def pal(n):#num
         return False
 print(pal(77777))
 
+
