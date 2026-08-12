@@ -37,4 +37,3 @@ def person(name,age,city):
     print(name,age,city)
 person("veda",age=21,city="hyd")
 
-
