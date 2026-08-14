@@ -36,5 +36,3 @@ print(power(8,3))
 def person(name,age,city):
     print(name,age,city)
 person("veda",age=21,city="hyd")
-
-
