@@ -9,3 +9,4 @@ for char in s:
 for char in count:
     if count[char]==3:
         print({char:count[char]})
+
