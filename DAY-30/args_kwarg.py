@@ -13,6 +13,3 @@ marks("shivani",64,85,93)
 def laptop(**arg):
     print(arg)
 laptop(name="nandu",brand="dell",year=2025)
-
-
-
