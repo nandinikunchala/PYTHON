@@ -7,7 +7,7 @@ student(90,80,86,85)
 def marks(name,*marks):
     print(name)
     print(marks)
-marks("shivani",64,85,93)
+marks("shivani",65,85,93)
 
 #**kwargs
 def laptop(**arg):
