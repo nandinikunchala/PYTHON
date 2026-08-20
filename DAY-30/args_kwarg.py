@@ -14,3 +14,4 @@ def laptop(**arg):
     print(arg)
 laptop(name="nandu",brand="dell",year=2025)
 
+
