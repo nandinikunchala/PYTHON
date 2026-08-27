@@ -32,3 +32,4 @@ outer()
 #built-in scope
 x="nandu"
 print(len(x))
+
