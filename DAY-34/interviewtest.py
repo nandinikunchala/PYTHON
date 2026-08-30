@@ -75,3 +75,4 @@ print("Number of puffs:",b)
 print("Number of cooldrinks:",c)
 total=(a*100)+(b*20)+(c*10)
 print("Total Price:",total)
+
