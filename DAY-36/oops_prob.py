@@ -114,5 +114,3 @@ class Rectangle:
 
 r1 = Rectangle(10, 5)
 print(r1.area())
-
-#
