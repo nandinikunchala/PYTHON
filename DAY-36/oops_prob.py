@@ -114,3 +114,118 @@ class Rectangle:
 
 r1 = Rectangle(10, 5)
 print(r1.area())
+
+#Create a class called BankAccount.
+# Using __init__(), store:
+# name
+# balance
+# Create a method:
+# deposit(amount)
+# The method should increase the balance by the given amount.
+# Then:
+# account = BankAccount("Nandini", 1000)
+# account.deposit(500)
+# print(account.balance)
+class BankAccount:
+    def __init__(self,name,balance):
+        self.name=name
+        self.balance=balance
+    def deposit(self,amount):
+        self.balance+=amount
+account=BankAccount("Nandini",1000)
+account.deposit(500)
+print(account.balance)
+
+#Create a BankAccount class with:
+# name
+# balance
+# Use __init__().
+# Create a method:
+# withdraw(amount)
+# It should decrease the balance by the given amount.
+# Test with:
+# account = BankAccount("Nandini", 2000)
+# account.withdraw(500)
+# print(account.balance)
+class BankAccount:
+    def __init__(self,name,balance):
+        self.name=name
+        self.balance=balance
+    def withdraw(self,amount):
+        self.balance-=amount
+account = BankAccount("Nandini", 2000)
+account.withdraw(500)
+print(account.balance)
+
+#Create a Student class with:
+# name
+# marks
+# Use __init__().
+# Create a method:
+# display()
+# that prints:
+# Name: <name>
+# Marks: <marks>
+# Then create two objects:
+# s1 = Student("Rahul", 85)
+# s2 = Student("Priya", 92)
+# Call display() for both objects.
+class Student:
+    def __init__(self,name,marks):
+        self.name=name
+        self.marks=marks
+    def display(self):
+        print(f"Name:{self.name}")
+        print(f"Marks:{self.marks}")
+s1=Student("Rahul",85)
+s2=Student("Priya",92)
+s1.display()
+s2.display()
+
+# Create a Person class with a class attribute:
+# country = "India"
+# Use __init__() to create an instance attribute:
+# name
+# Create:
+# p1 = Person("Rahul")
+# p2 = Person("Priya")
+# Print the name and country for both.
+class Person:
+    country="India"
+    def __init__(self,name):
+        self.name=name
+p1=Person("Rahul")
+p2=Person("Priya")
+print(p1.name,p1.country)
+print(p2.name,p2.country)
+
+#Create a Person class with:
+# name
+# age
+# Use __init__().
+# Create:
+# p1 = Person("Rahul", 25)
+# Then change Rahul's age to 30 using the object.
+# Finally, print the age.
+class Person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+p1=Person("Rahul",25)
+p1.age=30
+print(p1.age)
+
+#Create a Person class with:
+# country = "India"
+# Create two objects:
+# p1 = Person()
+# p2 = Person()
+# Then change the class attribute using the class itself:
+# Person.country = "USA"
+class Person:
+    country="India"
+p1=Person()
+p2=Person()
+Person.country="USA"
+print(p1.country) 
+print(p2.country)
