@@ -67,4 +67,3 @@
 
 #Returning different data types
 #functions can return any data type,including lists,tuples,dictionaries and more
-
