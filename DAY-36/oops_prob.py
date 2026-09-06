@@ -229,4 +229,3 @@ p2=Person()
 Person.country="USA"
 print(p1.country) 
 print(p2.country)
-
