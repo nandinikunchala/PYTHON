@@ -40,3 +40,4 @@ print(type(True))
 k="Ac repair"
 l=10000
 print("Service name is",k,"and service price is",l)
+
