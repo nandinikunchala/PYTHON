@@ -302,3 +302,25 @@ if item in inventory:
     print("Available quantity:", inventory[item])
 else:
     print("Item not found")
+###PRODUCT BASED COMPANY CODING QUESTIONS:
+#41. Implement an LRU-style cache using Python collections.
+
+# 42. Design a BankAccount class with deposit, withdrawal and balance validation.
+# 43. Design a Library class for borrowing and returning books.
+# 44. Design a URL shortener class.
+# 45. Implement a simple task manager.
+# 46. Implement a rate limiter.
+# 47. Build a log parser using regular expressions.
+# 48. Parse a JSON API response and extract selected fields.
+# 49. Build a CSV transaction analyzer.
+# 50. Create a file-search utility.
+# 51. Implement a custom iterator.
+# 52. Implement a generator for reading a large file line-by-line.
+# 53. Write a timing decorator.
+# 54. Create a retry decorator for failed functions.
+# 55. Implement a validation decorator.
+# 56. Build a command-line Todo application.
+# 57. Build a weather API CLI.
+# 58. Create a simple expense tracker.
+# 59. Build a username/email validator using regex.
+# 60. Create a mini inventory-management system.

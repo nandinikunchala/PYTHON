@@ -103,12 +103,34 @@ n="Hi,Hello,Hola"
 for x in n.split(","):
     print(x)
 # Write a Python program to join three service names into one string separated by ' | '.
-
+a="Phone Repair"
+b="Laptop Repair"
+c="TV Repair"
+print("|".join([a,b,c]))
 # Write a Python program to check whether a product code starts with 'PRO'.
+s=input("Enter product name:")
+if s[:3]=="PRO":
+    print("starts with PRO")
+else:
+    print("Doesn't start")
 # Write a Python program to check whether a service code ends with '2026'.
+d=input("Enter service code:")
+if d[-4:]=="2026":
+    print("Service code ends with 2026")
+else:
+    print("Doesn't end with 2026")
 # Write a Python program to capitalize the first letter of each word in a customer name.
+f=input("Enter name:")
+print(f.title())
 # Write a Python program to format a customer invoice using an f-string with customer name, product, quantity, and total.
+customer_name=input("Enter name:")
+product=input("Enter product:")
+price=int(input("Enter price:"))
+quantity=int(input("Enter quantity:"))
+total=price*quantity
+print(f"{customer_name} purchased {product} of quantity {quantity} and total is {total}.")
 # Write a Python program to generate a product summary using the format() method.
+
 # Write a Python program to display a price with exactly two decimal places using string formatting.
 # Write a Python program to mask a customer phone number so that only the last four digits are visible.
 # Write a Python program to extract the domain name from an email address such as 'user@company.com'.
@@ -119,10 +141,39 @@ for x in n.split(","):
 # Write a Python program to compare two product names after converting them to lowercase and removing extra spaces.
 # Booleans & Product/Service Logic
 # Write a Python program that returns True if a product is in stock and False otherwise.
+product=input("Enter product:")
+stock=["Laptop","Tv","Phone","Watch"]
+if product in stock:
+    print("True")
+else:
+    print("False")
 # Write a Python program to check whether a customer can access a premium service based on subscription status.
+customer_service=input("Enter service:")
+subscription_status={"Premium":799,"Basic":599}
+if customer_service in subscription_status:
+    if customer_service=="Premium":
+        print("True")
+    else:
+        print("False")
+else:
+    print("False")
 # Write a Python program to check whether a coupon is valid when the coupon code matches and the order value meets the minimum amount.
+coupon_code=input("Enter coupon code:")
+total_amount=int(input("Enter total amount:"))
+coupon="NANDY21"
+min_amount=400
+if coupon_code==coupon and total_amount>=min_amount:
+    print("True")
+else:
+    print("False")
 # Write a Python program to determine whether free delivery should be applied using boolean conditions.
+amount=int(input("Enter amount:"))
+if amount>=500:
+    print("True")
+else:
+    print("False")
 # Write a Python program to check whether a user qualifies for a product warranty based on purchase amount and warranty status.
+
 # Write a Python program to determine whether a service request can be accepted when the customer is active and payment is completed.
 # Write a Python program that checks whether a product is eligible for a return using purchase days and return policy status.
 # Write a Python program to determine whether a customer gets a premium discount if they are a member or their purchase exceeds a threshold.
