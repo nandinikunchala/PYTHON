@@ -261,7 +261,7 @@ print(merged)
 l={"a":10,"b":20}
 m={"a":10,"d":40}
 common={}
-for key,vaslue in l.items():
+for key,value in l.items():
     if key in m:
         common[key]=value
 print(common)
