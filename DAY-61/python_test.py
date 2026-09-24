@@ -194,4 +194,3 @@ for x in range(1, 9):
 a = [10, 20, 10, 30, 20, 40]
 unique = set(a)
 print(unique)
-#29.
