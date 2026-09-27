@@ -107,9 +107,3 @@ while i>0:
     reverse=reverse+str(digit)#rev=rev*10+digit
     n//=10
 print(reverse)
-
-
-
-
-
-
