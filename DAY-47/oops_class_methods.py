@@ -43,3 +43,6 @@ class Person:
     return f"{self.name} ({self.age})"
 p1 = Person("Tobias", 36)
 print(p1)
+
+#Delete Methods
+#We can delete methods from a class using the del keyword.
