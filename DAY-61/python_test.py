@@ -194,3 +194,83 @@ for x in range(1, 9):
 a = [10, 20, 10, 30, 20, 40]
 unique = set(a)
 print(unique)
+#29.Find duplicate elements
+g=(10,20,10,30,10,20)
+dup_ele=[]
+for x in g:
+    if x in dup_ele:
+        print(x)
+    else:
+        dup_ele.append(x)
+#30.Count word frequency using a dictionary
+sentence="I am Nandini I am learning Python"
+words=sentence.split()
+frequency={}
+for word in words:
+    if word in frequency:
+        frequency[word]+=1
+    else:
+        frequency[word]=1
+print(frequency)
+#31.Find the most frequent element.
+a = [10, 20, 10, 30, 10, 20]
+frequent= a[0]
+for x in a:
+    if a.count(x) > a.count(frequent):
+        frequent = x
+print(frequent)
+#32.Invert a dictionary.
+d = {"a": 1, "b": 2, "c": 3}
+inverted = {}
+for key, value in d.items():
+    inverted[value] = key
+print(inverted)
+#33.Merge two dictionaries.
+l={"a":10,"b":20}
+m={"c":30,"d":40}
+merged={}
+for key, value in l.items():
+    merged[key] = value
+for key, value in m.items():
+    merged[key] = value
+print(merged)
+#34.Find common keys between dictionaries.
+l={"a":10,"b":20}
+m={"a":10,"d":40}
+common={}
+for key,value in l.items():
+    if key in m:
+        common[key]=value
+print(common)
+#35. Build a student grade tracker.
+marks=90
+if marks>=90:
+    print("A Grade")
+elif marks<90 and marks>=80:
+    print("B Grade")
+elif marks<80 and marks>=70:
+    print("C Grade")
+elif marks<70 and marks>=60:
+    print("D Grade")
+else:
+    print("Fail")
+#36.Create a phone-book application.
+phonebook = {}
+phonebook["Nandini"] = "6302238280"
+phonebook["Rahul"] = "8018831349"
+phonebook["Priya"] = "9876543212"
+name = input("Enter name: ")
+if name in phonebook:
+    print("Phone number:", phonebook[name])
+else:
+    print("Contact not found")
+#37.Create a dictionary-based inventory system.
+inventory = { "Laptop": 5,"Phone": 10,"Keyboard": 15}
+item = input("Enter item: ")
+if item in inventory:
+    print("Available quantity:", inventory[item])
+else:
+    print("Item not found")
+#38. Group words that are anagrams.
+#39. Implement string compression.
+#40. Rotate a list by k positions.
